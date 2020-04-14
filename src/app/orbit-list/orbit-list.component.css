@@ -4,11 +4,11 @@
 }
 
 .warning {
-    background-color: #da8a8a;
+    background-color: #f66;
 }
 
 table {
-  color: #666;
+  color: #444;
   border-radius: 5px;
   overflow: hidden;
   margin: 12px 0;
@@ -25,4 +25,8 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #ff99c2;
 }
